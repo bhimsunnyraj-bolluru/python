@@ -9,7 +9,8 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "${file}"
+            "program": "${file}",
+            "pythonPath": "/Users/sunny/anaconda3/bin/python"
         },
         {
             "name": "Python: Attach",
@@ -97,7 +98,7 @@
             "name": "Python: All debug Options",
             "type": "python",
             "request": "launch",
-            "pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6",
+            "pythonPath": "/Users/sunny/anaconda3/bin/python",
             "program": "${file}",
             "module": "module.name",
             "env": {
